@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SISAC.DATOS"
+                   namespace="SISAC.DATOS.Modelo"
+                   default-lazy="false">
+  <class name="Cuentas" table="TBL_CUENTAS">
+    <!--ID_CUENTAS, FK_COMPANIA, BANCO, NRO_CUENTA, USU_FECHA, USU_LOGIN, ESTADO-->
+    <id name="Id" access="property" column="ID_CUENTAS">
+      <generator class="native" />
+    </id>
+    <property name="Banco" column="BANCO" />
+    <property name="NroCuenta" column="NRO_CUENTA" />
+    <property name="UsuLogin" column="USU_LOGIN"/>
+    <property name="UsuFecha" column="USU_FECHA"/>
+    <property name="Estado" column="ESTADO"/>
+    <property name="Descripcion" column="DESCRIPCION"/>
+    <property name="CodInterbancario" column="COD_INTERBANCARIO"/>
+    <property name="Moneda" column="MONEDA"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SISAC.DATOS"
+                   namespace="SISAC.DATOS.Modelo"
+                   default-lazy="false">
+  <class name="Compania" table="TBL_COMPANIA">
+    <id name="Id" access="property" column="ID_COMPANIA" >
+      <generator class="native" />
+    </id>
+    <property name="RazonSocial" column="RAZON_SOCIAL" />
+    <property name="Ruc" column="RUC"/>
+    <property name="Direccion" column="DIRECCION"/>
+    <property name="Telefono1" column="TELEFONO1"/>
+    <property name="Telefono2" column="TELEFONO2"/>
+    <property name="Correo1" column="CORREO1"/>
+    <property name="Correo2" column="CORREO2"/>
+    <property name="UsuLogin" column="USU_LOGIN"/>
+    <property name="Estado" column="ESTADO"/>
+    <property name="UsuFecha" column="USU_FECHA"/>
+    <list name="ListaCuentas" table="TBL_CUENTAS" cascade="all">
+      <key column="FK_COMPANIA"/>
+      <index column="CUENTA_INDEX"/>
+      <one-to-many class="Cuentas"/>
+    </list>
+    <many-to-one name="Ubigeo" column="UBIGEO"/>
+  </class>
+</hibernate-mapping>
+

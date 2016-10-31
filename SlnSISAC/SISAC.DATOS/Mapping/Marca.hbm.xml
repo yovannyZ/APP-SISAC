@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SISAC.DATOS"
+                   namespace="SISAC.DATOS.Modelo"
+                   default-lazy="false">
+  <class name="Marca" table="TBL_MARCA">
+    <!--ID_MARCA, DESCRIPCION, USU_FECHA, USU_LOGIN, ESTADO-->
+    <id name="Id" access="property" column="ID_MARCA">
+      <generator class="native" />
+    </id>
+    <property name="Descripcion" column="DESCRIPCION" />
+    <property name="UsuLogin" column="USU_LOGIN"/>
+    <property name="UsuFecha" column="USU_FECHA"/>
+    <property name="Estado" column="ESTADO"/>
+  </class>
+</hibernate-mapping>

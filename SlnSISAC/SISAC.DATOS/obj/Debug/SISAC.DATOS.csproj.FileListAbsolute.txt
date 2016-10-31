@@ -1,0 +1,10 @@
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\SISAC.DATOS.dll.config
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\SISAC.DATOS.dll
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\SISAC.DATOS.pdb
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\Iesi.Collections.dll
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\NHibernate.dll
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\obj\Debug\SISAC.DATOS.csprojResolveAssemblyReference.cache
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\obj\Debug\SISAC.DATOS.dll
+c:\users\yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\obj\Debug\SISAC.DATOS.pdb
+C:\Users\Yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\log4net.dll
+C:\Users\Yovanny\documents\visual studio 2013\Projects\SlnSISAC\SISAC.DATOS\bin\Debug\log4net.xml
